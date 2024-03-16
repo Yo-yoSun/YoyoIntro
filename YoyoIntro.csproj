@@ -7,7 +7,22 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Include="doc\index.html" />
+    <Compile Remove="doc\**" />
+    <Content Remove="doc\**" />
+    <EmbeddedResource Remove="doc\**" />
+    <None Remove="doc\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="docs\Index.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Views\Home\Index.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="docs\" />
   </ItemGroup>
 
 </Project>
