@@ -21,8 +21,4 @@
     <None Include="Views\Home\Index.cshtml" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="docs\" />
-  </ItemGroup>
-
 </Project>
